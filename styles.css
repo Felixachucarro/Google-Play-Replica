@@ -1,0 +1,163 @@
+body{
+    background-image: url('https://images.unsplash.com/photo-1658816738212-be97adb6d48f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80');
+}
+
+
+section{
+   
+    background: rgba(255, 255, 255, 0.28);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(7.1px);
+    -webkit-backdrop-filter: blur(7.1px);
+    border: 1px solid rgba(255, 255, 255, 0.41);
+
+
+display: flexbox;
+justify-items: flex-start;
+padding: 2cm 2cm 2cm 2cm;
+border:  1cm;
+
+margin-left: 5cm;
+margin-right: 5cm;
+margin-top: 1cm;
+margin-bottom: 2cm;
+line-height: 6mm;
+
+}
+
+section h1{
+    font-size: 4em;
+    font-weight: 900;
+    position: relative;
+    left: 22mm;
+}
+
+
+h4 {
+color: coral;
+}
+
+h2{
+    font-weight: 300;
+    color: rgb(67, 67, 67);
+}
+
+.Icono-juego img{
+    width: 2cm;
+    height: 2cm;
+    border-radius: 10px;
+    position: absolute;
+    top: 20mm
+}
+
+.Icono-juego img:hover{
+    filter: opacity(0.9);
+    transition: transform 0.3s ease-in-out;
+    transform: scale(1.06);
+}
+
+h6{
+    color: rgb(57, 115, 250);
+}
+
+.h1, h2, h3, h4, h5, h6{
+    display: flexbox;
+    line-height: 1mm;
+    
+}
+
+
+
+.Captura img{
+    position: absolute;
+    width: 400px;
+    height: 200px;
+    display: inline-flex;
+    float: right;
+    
+    margin: 8px; 
+    top: 2cm;
+    left: 12cm;
+    border-radius: 20px;
+}
+
+.Captura img:hover{
+    filter: opacity(0.9);
+    transition: transform 0.3s ease-in-out;
+    transform: scale(1.06);
+}
+
+#Data-juego{
+    
+
+    display:block;
+    position: relative;
+    justify-content: space-around;
+
+    margin-top: 2mm;
+    margin-left: 0cm;
+    margin-right: 2cm;
+
+
+    padding-top: 2mm;
+    padding-bottom: 2mm;
+    padding-left: 5mm;
+    padding-right: 5mm;
+
+    font-weight: 500;
+}
+
+#Data-juego h2,h3{
+
+}
+
+
+#instalar{
+    background-color: rgb(33, 33, 33);
+    
+    text-align: center;
+
+    padding-top: 2mm;
+    padding-bottom: 2mm;
+    padding-left: 5mm;
+    padding-right: 5mm;
+
+    border-left: 2cm;
+
+   box-shadow:  0 4px 30px rgba(0, 0, 0, 0.209);
+}
+
+#instalar :hover{
+    filter: opacity(0.9);
+    transition: transform 0.1s ease-in;
+    transform: scale(1.06);
+}
+
+#instalar h2{
+    color: rgb(245, 123, 123);
+    font-size: 5mm;
+    margin-top: 2mm;
+}
+
+.Imagenes img{
+    display: flexbox; 
+    flex-wrap: wrap-reverse;
+    justify-content: space-around;
+    max-width: 200px;
+    align-items: star;
+    object-fit: contain;
+    padding-left: 4mm;
+
+}
+
+.Imagenes img:hover{
+    filter: opacity(0.9);
+    transition: transform 0.1s ease-in;
+    transform: scale(1.06);
+}
+
+:link{
+    text-decoration: none;
+    color:indianred;
+}
